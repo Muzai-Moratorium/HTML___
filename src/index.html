@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>연습장</h1>
+      <nav>
+        <ul>
+          <li><a href="#">메뉴1</a></li>
+          <li><a href="#">메뉴2</a></li>
+          <li><a href="#">메뉴3</a></li>
+          <li><a href="#">메뉴4</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="login_form">
+        <h2 class="form_title">로그인</h2>
+        <form>
+          <div class="input_box">
+            <label for="email">이메일</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="이메일을 입력해주세요"
+              required
+            />
+          </div>
+
+          <div class="input_box">
+            <label for="password">비밀번호</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="비밀번호를 입력해주세요"
+              required
+            />
+          </div>
+
+          <div class="login_btn">
+            <button type="submit">로그인</button>
+          </div>
+        </form>
+
+        <div class="extra_options">
+          <a href="#">비밀번호 찾기</a>
+          <span>|</span>
+          <a href="#">회원가입</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
